@@ -1,0 +1,118 @@
+{
+    "name": "1树状家谱图列说明",
+    "children": [
+        {
+            "name": "1颜色定义",
+            "type": "Bible",
+            "children": [
+                {
+                    "name": "0缺省颜色：蓝色",
+                    "children": [
+                        {
+                            "name": "颜色名：lightsteelblue",
+                            "size": 3938
+                        }
+                    ]
+                },
+                {
+                    "name": "1圣经主线：紫色",
+                    "type": "Bible",
+                    "children": [
+                        {
+                            "name": "颜色名：DarkViolet:DarkViolet",
+                            "type": "Bible",
+                            "size": 3938
+                        },
+                        {
+                            "name": "JSON标签： type = Bible",
+                            "type": "Bible",
+                            "size": 3938
+                        }
+                    ]
+                },
+                {
+                    "name": "2次经：黄绿色",
+                    "type": "Apoplexy",
+                    "children": [
+                        {
+                            "name": "颜色名: yellowgreen : yellowgreen",
+                            "type": "Apoplexy",
+                            "size": 3534
+                        },
+                        {
+                            "name": "JSON标签： type = Apoplexy",
+                            "type": "Apoplexy",
+                            "size": 3938
+                        }
+                    ]
+                },
+                {
+                    "name": "3历史书：天蓝色",
+                    "type": "History",
+                    "children": [
+                        {
+                            "name": "颜色： skyblue : royalblue",
+                            "type": "History",
+                            "size": 7074
+                        },
+                        {
+                            "name": "JSON标签： type = History",
+                            "type": "History",
+                            "size": 3938
+                        }
+                    ]
+                },
+                {
+                    "name": "4Special：橙色",
+                    "type": "Other",
+                    "children": [
+                        {
+                            "name": "颜色： orangered : orange",
+                            "type": "Other",
+                            "size": 7074
+                        },
+                        {
+                            "name": "JSON标签： type = Other",
+                            "type": "Other",
+                            "size": 3938
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "2节点说明",
+            "children": [
+                {
+                    "name": "0圣经节点NAME：提供圣经经文引用",
+                    "size": 3938
+                },
+                {
+                    "name": "1圣经/次经节点scription：定义两种文字引用",
+                    "size": 3938
+                },
+                {
+                    "name": "2只有次经节点：定义次经经文",
+                    "size": 3812
+                },
+                {
+                    "name": "3名称里面-冒号：分割夫妻关系，()注解或母亲，？不确定代数，可能等于大于这一代",
+                    "size": 3812
+                }
+            ]
+        },
+        {
+            "name": "3摘要文字实现,node name:name",
+            "children": [
+                {
+                    "name": "1圣经：放关键词到Bibleref字段",
+                    "size": 3938
+                },
+                {
+                    "name": "2次经及其他：放描述文字到scription字段",
+                    "size": 3812
+                }
+            ]
+        }
+    ]
+}
