@@ -13,3 +13,10 @@ This is a Bible family tree based HTML5 Canvas chat, the technical is based D3.J
 <br>
 the sample is here:
 https://his.mohou.ca/jiapu/
+
+Current problem:
+1)current node is about 1093, when the node increase, the same group child node can become close, and it become mixed each other
+2)fold the parent node can make the child node lost Ref tag function, should improve this
+3)some situtation, the Bible tag can't show correctly
+4) right click menu can popup a edit menu, but this doesn't work now
+5) all the data modify only based the tree.json file
